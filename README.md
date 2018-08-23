@@ -1,4 +1,4 @@
-# CanineBreeds
+# Dog Breeds
 A small application that uses the JSON API provided by https://dog.ceo/.  
 It loads a list of dog breeds from the server and after selecting the breed,  
 loads and displays all available photos of the selected breed of dogs.  
