@@ -141,7 +141,6 @@ public class BreedFragment extends Fragment implements Contract.IView {
         public void bindData(final ExpandableGroup breed) {
             this.breed = breed;
             numberOfSubBreeds = breed.getItems().size();
-            //breedItemTextView.setText(breed.getTitle());
             breedItemTextView.setText(capitalizeFirstLetter(breed.getTitle()));
 
             if (breed.getItemCount() != 0) {
@@ -206,7 +205,6 @@ public class BreedFragment extends Fragment implements Contract.IView {
 
         public void bindData(final SubBreed subBreed) {
             this.subBreed = subBreed;
-            //subBreedTextView.setText(subBreed.getSubBreedName());
             subBreedTextView.setText(capitalizeFirstLetter(subBreed.getSubBreedName()));
         }
 
